@@ -1,7 +1,9 @@
 @-moz-document domain("www.messenger.com") {
 /**
- * Monochrome, distraction-free style for messenger.com
- * Justin Zhu
+ * IRC Style for messenger.com
+ * @description Makes messenger.com feel more like an IRC client
+ * @version     1.0.4
+ * @url         https://github.com/PeteDevoy/irc-style-for-messenger-com
  */
 
   h1, a, span, p, strong, div, input
@@ -94,11 +96,16 @@
     background-image: none;
     display: flex;
     background-color: transparent;
+    color: transparent;
+    filter: brightness(1000%);
   }
 
 /* Top Buttons transparent */
-._6ymu, ._30yy {
+._6ymu, ._30yy._6-xp._6-xq {
     background-color: transparent;
+    color: transparent;
+    filter: brightness(1000%);
+    white-space: pre;
 }
 
 /*... and replace with text
@@ -109,10 +116,12 @@
 
 
 ._30yy._6ymd::after {
-    content: "[set]";
+    content: "     ";
+    /* content: "[set]"*/
 }
 ._30yy._6-xp._6-xq::after {
-    content: "[new]";
+    content: "     ";
+    /*content: "[new]";*/
 }
   ._30yy._2oc8::after
   {
@@ -355,4 +364,10 @@ a[aria-label*="Choose a gif"] {
     box-shadow: none;
     display: none;
 }
+
+/* Search button */
+._58ak, ._58al::before{
+    filter: brightness(1000%);
+}
+
 }
