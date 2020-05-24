@@ -1,0 +1,5 @@
+@-moz-document domain("harvard.edu") {
+body {
+    filter: grayscale(100);
+}
+}
