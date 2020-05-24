@@ -370,4 +370,9 @@ a[aria-label*="Choose a gif"] {
     filter: brightness(1000%);
 }
 
+/* large font size */
+.__i_._7i2k {
+    font-size: 24px;
+}
+
 }
