@@ -1,0 +1,5 @@
+@-moz-document domain("piazza.com") {
+body {
+    filter: grayscale(100);
+}
+}
