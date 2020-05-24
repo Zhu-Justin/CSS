@@ -1,0 +1,11 @@
+@-moz-document domain("youtube.com") {
+body {
+    filter: grayscale(100) !important
+}
+
+#logo-icon-container{
+    display: None;
+}
+
+
+}
