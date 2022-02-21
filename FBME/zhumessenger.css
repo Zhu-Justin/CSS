@@ -1,0 +1,378 @@
+@-moz-document domain("www.messenger.com") {
+/**
+ * IRC Style for messenger.com
+ * @description Makes messenger.com feel more like an IRC client
+ * @version     1.0.4
+ * @url         https://github.com/PeteDevoy/irc-style-for-messenger-com
+ */
+
+  h1, a, span, p, strong, div, input
+  {
+    font-family:'Courier New', 'Consolas' !important;
+  }
+  body
+  {
+    filter: grayscale(100%) !important;
+    border-style: none !important;
+  }
+
+
+/*hide chat bubble background*/
+  .__i_ div, ._nd_ ._hh7._6ybn
+  {
+    background-color: #fff;
+    color: #000 !important;
+    /*font-family: 'Lucida Console', 'Courier New', 'Consolas';*/
+      
+  }
+
+/*prevents chat bubble color override from hiding images*/
+  #js_1 > div > div > div > div.clearfix._o46._3erg div
+  {
+    background-color: transparent;
+  }
+
+/*left align sender text*/
+  ._o46._3i_m ._3058
+  {
+    clear: both;
+    float: left !important;
+      
+  }
+
+/*make messages fill width*/
+  ._52mr,
+._52mr._s1-
+  {
+    max-width: 100% !important;
+  }
+
+/*make display picture smaller*/
+  ._4ld-
+  {
+    width: 16px !important;
+    height: 16px !important;
+    margin: 8px;
+  }
+
+/*show names*/
+  ._-ne
+  {
+    height: auto;
+    opacity: 1;
+  }
+
+  h5._ih3
+  {
+    margin: 0;
+    padding: 0;
+    height: auto !important;
+    width: auto !important;
+    position: relative !important;
+  }
+
+  a
+  {
+    color: black !important;
+  }
+
+/*hide pictures and conversation previews in sidebar*/
+  ._4ldz,
+._5bli._2_a2.img
+  {
+    display: none;
+  }
+
+  ._3d85
+  {
+    display: none;
+  }
+
+/*hide settings cog and new button images...*/
+  ._30yy._2fug._p,
+._30yy._2oc8,
+._30yy._6ymd
+{
+    background-image: none;
+    display: flex;
+    background-color: transparent;
+    color: transparent;
+    filter: brightness(1000%);
+  }
+
+/* Top Buttons transparent */
+._6ymu, ._30yy._6-xp._6-xq {
+    background-color: transparent;
+    color: transparent;
+    filter: brightness(1000%);
+    white-space: pre;
+}
+
+/*... and replace with text
+  ._30yy._2fug._p::after
+  {
+    content: "    \000d\000asettings";
+  }*/
+
+
+._30yy._6ymd::after {
+    content: "     ";
+    /* content: "[set]"*/
+}
+._30yy._6-xp._6-xq::after {
+    content: "     ";
+    /*content: "[new]";*/
+}
+  ._30yy._2oc8::after
+  {
+    content: "\00a0  new";
+  }
+
+/*hide options icons*/
+  ._3szp
+  {
+    display: none;
+  }
+
+._6-xo{
+    display: none;
+}
+
+/*make top right button container centre buttons*/
+  ._fl2
+  {
+    height: 100%;
+    margin: 0;
+    padding: 0 8px 0 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*hide top right button images*/
+  ._fl2 li a div
+  {
+    display: none;
+  }
+
+/*remove 32px width*/
+  ._fl2 li a
+  {
+    width: auto;
+    height: auto;
+  }
+
+/*inject text replacements*/
+  ._fl2 li:nth-child(0n+2) a::after
+  {
+    content: "[voice]";
+  }
+
+  ._fl2 li:nth-child(0n+3) a::after
+  {
+    content: "[video]";
+  }
+
+  ._fl2 li:nth-child(0n+4) a::after
+  {
+    content: "[i]";
+  }
+
+/*hide top right butttons*/
+  ._31tl._31tm._30yy,
+._31tl._31to._30yy,
+._fl3._20na._30yy,
+._fl3._20nb._30yy
+  {
+    background-image: none !important;
+    width: 100px !important;
+    margin-top: 5px;
+  }
+
+  ._fl3._20na._30yy::after
+  {
+    content: "hide info";
+  }
+
+  ._fl3._20nb._30yy::after
+  {
+    content: "show info";
+  }
+
+/*hide search box background*/
+  ._5iwm ._58al
+  {
+    border-style: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+/* NEW STYLE */
+
+  /*hide chat bubble background
+  .__i_ div {
+    color: #fff!important;
+    font-size: 13px!important;
+    background: #000
+  }*/
+  
+  
+  /*left align sender text*/
+  ._o46._3i_m ._3058 {
+    clear: both;
+    float: left !important;
+  }
+
+  
+  /*make messages fill width*/
+  ._52mr, ._52mr._s1- {
+    max-width: 100% !important;
+  }
+  
+
+/* Get rid of faces */
+
+._1jt8 {
+    display: none;
+}
+._1ht1 ._1qt3 {
+    display: none;
+}
+/* Other Icons */
+._2j6, ._87v3, ._7mki, ._5j_u, ._7odb {
+    display: none;
+}
+
+/*
+#js_25m {
+    display: none;
+}
+
+#js_2gt {
+    display: none;
+}
+
+#js_5kn {
+    display: none;
+}
+*/
+
+/*._hw4 {
+    color:#fff!important;
+}*/
+
+a[data-testid*="messenger_sticker_button"] {
+    display: none;
+}
+
+a[aria-label*="Choose a gif"] {
+    display: none;
+}
+#Group{
+    display: none;
+}
+
+/*
+._4q61, ._7oal {
+    background-image: none;
+    background-color: transparent;
+}
+
+#Group::after {
+    content: "[files]";
+}
+*/
+
+/* Search Bar */
+
+._58ak, ._58al ._7tpc,._5iwm, ._6-_b, ._150g, ._58ah {
+    background-color: transparent;
+    color: transparent;
+    background-image: none;
+}
+._58ak, ._58-3 {
+    background-color: transparent;
+    color: transparent;
+    background-image: none;
+}
+
+._5iwm._6-_b ._58al {
+    background-color: transparent;
+    border-radius: 0px; 
+}
+
+._58ak::before {
+    content: "[files]";
+}
+._5iwm ._58al {
+    border-bottom: none;
+}
+
+/*Groups*/
+._7q0v, ._6ynm, ._7q1j {
+    display: none;
+}
+/* people faces */
+._jf2 {
+    filter: brightness(0%)
+}
+/* emojis */
+._1ift {
+    filter: brightness(0%);
+}
+
+.sx_001619 {
+    filter: brightness(500%)
+}
+
+/* border between the sides */
+._1t2u, ._7sli {
+    border: none;
+}
+._4_j4{
+    border: none;
+}
+/*
+._673w ._6ynl ._1_fz, ._20bp {
+    border: none;
+}
+._6-xk {
+    border: none;
+}
+
+._20bp, ._4_j5, ._4_j4 {
+    border: none;
+}
+._4u-c ._1wfr ._9hq {
+    border: none;
+}
+._5743, ._6y4y, ._2sdm {
+    border: none;
+}
+
+._6ynn {
+    display: none;
+}
+*/
+/* Get rid of top bar */
+._673w {
+    display: none;
+}
+
+/* react icons*/
+._7ef9 {
+    filter: brightness(1000%);
+    box-shadow: none;
+    display: none;
+}
+
+/* Search button */
+._58ak, ._58al::before{
+    filter: brightness(1000%);
+}
+
+/* large font size */
+.__i_._7i2k {
+    font-size: 24px;
+}
+
+}
