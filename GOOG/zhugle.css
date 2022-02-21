@@ -1,0 +1,23 @@
+@-moz-document domain("google.com") {
+body {
+    filter: grayscale(100);
+    border: none;
+}
+
+.gb_lc, .gb_mc, .zo, .gb_rc{
+    display: None;
+}
+
+.z0 > .L3{
+    background-color: black;
+}
+
+.qr {
+    background-color: black;
+}
+.bAw {
+    display: None;
+}
+
+
+}
