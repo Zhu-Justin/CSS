@@ -19,6 +19,7 @@ These CSS changes are designed with the aim of guiding those who want some more 
 
 These four-letter folders contain preliminary CSS standards for the following websites:
 
+```
 DUCK (duckduckgo.com)
 FACE (facebook.com)
 FBME (messenger.com)
@@ -27,6 +28,7 @@ HARV (harvard.edu)
 LINK (linkedin.com)
 STAC (stackoverflow.com)
 YOUT (youtube.com)
+```
 
 # Future Work
 
