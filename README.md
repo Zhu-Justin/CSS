@@ -4,7 +4,7 @@ Cascading Style Sheets define the visual appearance of the Internet as we know i
 
 Here, I propose a unified visual standard to the Internet by injecting some additional CSS to  common websites.
 
-These CSS changes are designed with the aim of guiding those who want some more visual space in their Internet experience. Less noise, less cognitive burden, less anxiety. Some heuristics to start:
+These CSS changes are designed with the aim of guiding those who want some more visual space in their Internet experience. Less distractions, less cognitive burden, less anxiety. Some heuristics to start:
 
 1. Font size of 16 pt or greater
 2. Serif font over Sans Serif font whenever possible
